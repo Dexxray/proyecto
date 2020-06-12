@@ -1,60 +1,25 @@
 <!DOCTYPE html>
 <html>
-<!--Framework gratuito de bootstrap modificado por Javier Casco Rodes-->
-<head>
-    <title>Registrarse</title>
-    <link rel="stylesheet" href="../proyecto/estilos/estilo_login_y_registro.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-</head>
 
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="estilos/estilo_registro.css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Registro</title>
+</head>
 <body>
-    <div class="container h-100">
-        <div class="d-flex justify-content-center h-100">
-            <div class="user_card">
-                <div class="d-flex justify-content-center">
-                    <div class="brand_logo_container">
-                        <img src="https://cdn.freebiesupply.com/logos/large/2x/pinterest-circle-logo-png-transparent.png" class="brand_logo" alt="Logo">
-                    </div>
-                </div>
-                <div class="d-flex justify-content-center form_container">
-                    <form action="../proyecto/config/insertar.php" method="post" enctype="multipart/form-data">
-                        <div class="input-group mb-3">  
-                            <div class="input-group-append">
-                                <span class="input-group-text"></span>
-                            </div>
-                            <input type="text" id="usuario" name="usuario" class="form-control input_user" placeholder="usuario">
-                        </div>
-                        <div class="input-group mb-2">
-                            <div class="input-group-append">
-                                <span class="input-group-text"></span>
-                            </div>
-                            <input type="email" id='email' name="email" class="form-control input_pass" placeholder="email">
-                        </div>
-                        <div class="input-group mb-1">
-                            <div class="input-group-append">
-                                <span class="input-group-text"></span>
-                            </div>
-                            <input type="password" id='password' name="password" class="form-control input_pass" placeholder="contraseña">
-                        </div>
-                    <div class="d-flex justify-content-center mt-3 login_container">
-                    <button type="submit" name="enviar" class="btn login_btn">Registrarse</button>
-                    </div>
-                    </form>
-                </div>
-        
-                <div class="mt-4">
-                    <div class="d-flex justify-content-center links">
-                        <a href="../proyecto/index.php" class="ml-2">Volver al inicio</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+  <form class="formulario" action="../proyecto/config/insertar.php" method="post" enctype="multipart/form-data">
+    <h4>Registro</h4>
+    <input required class="controls" type="text" name="usuario" id="usuario" placeholder="Usuario">
+    <input required class="controls" type="email" name="email" id="email" placeholder="Email">
+    <input required class="controls" type="password" name="pass" id="pass" placeholder="Contraseña">
+    <p>Registrandome acepto<a href="/proyecto/cond.php">Terminos y Condiciones</a></p>
+    <button class="boton" type="submit" name="enviar">Registrarse</button>
+    <p><a href="/proyecto/validar.php">Iniciar sesion</a></p>
+    <p><a href="/proyecto/index.php">Volver al inicio</a></p>
+  </form>
 
 <?php
 if (isset($_POST['enviar'])){
