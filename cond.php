@@ -17,6 +17,9 @@
 	<br><br>
 	En la elaboracion del proyecto, estos contenidos han servido unicamente como un apoyo de desarrollo o en algunos casos la
 	inspiracion para adiciones al trabajo, no han servido como sustituto de ningun modo. 
+	<br><br>
+	Este sitio web emplea cookies para facilitar el acceso reiterado al sitio sin la necesidad de iniciar sesiones. Accediendo
+	al sitio aprueba que el sitio guarde cookies en su ordenador para aportar funcionalidades adicionales.
 	</p>
 	<a href="registro.php" style="font-size: 18px;">Atras</a>
 </body>

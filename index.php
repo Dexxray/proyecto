@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--Framework gratuito de bootstrap modificado por Javier Casco Rodes-->
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
         <title>Forodex</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
@@ -21,7 +18,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/proyecto/validar.php">Iniciar sesion</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/proyecto/validar.php">Acceder</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/proyecto/registro.php">Registrarse</a></li>
                     </ul>
                 </div>
@@ -40,7 +37,9 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Inicio</h2>
-                    <h3>Esta pagina web muestra todo lo aprendido en el curso, desde el diseño de paginas web al uso de bases de datos para almacenar y usar informacion</h3>
+                    <h3>El objetivo de forodex es que los usuarios, una vez registrados, puedan acceder a los archivos
+                    subidos anonimamente por los demas usuarios y subir sus propios archivos para compartirlos
+                    sin comprometer su informacion de usuario</h3>
                 </div>
             </div>
         </section>

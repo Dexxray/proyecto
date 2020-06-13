@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-<!--Framework gratuito de bootstrap modificado por Javier Casco Rodes-->
 <head>
     <title>Inicio de sesion</title>
     <link rel="stylesheet" href="../proyecto/estilos/estilo_login.css">
@@ -27,7 +26,7 @@
                             <div class="input-group-append">
                                 <span class="input-group-text"></span>
                             </div>
-                            <input type="text" id="usuario" name="usuario" class="form-control input_user" required placeholder="usuario">
+                            <input type="text" id="iusuario" name="iusuario" class="form-control input_user" required placeholder="usuario">
                         </div>
                         <div class="input-group mb-2">
                             <div class="input-group-append">
